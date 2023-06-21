@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding-bottom: 8px;
+    background-color: rgb(58, 141, 144);
+    border: solid rgb(58, 141, 144);
+}
+
+body{
+    background-color: aqua;
+}
+
+.cabecalho{
+    margin-top: 40px;
+}
+
+.cabecalho,
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+    margin-left: 30px;
+    margin-top: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    margin-top: 27px;
+    background-color: aqua;   
+    text-align: center;
+}
+
+.duo{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+
+.block{
+    display: flex;
+}
+
+.flex{
+    display: block;
+    margin-left: 160px;
+}
+
+.dadinho{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+#principais, img{
+    margin-top: 40px;
+}
+
+#espa,
+#gela,
+#liq{
+    text-align: center;
+}
+
+#liq{
+    margin-top: 40px;
+}
+
+h3{
+    text-align: start;
+    margin-left: 90px;
+}
+
+ol{
+    text-align: start;
+    margin-left: 90px;
+}
+
+.sobremesa{
+    margin-top: 40px;
+}
+
+a:hover{
+    color: red;
+    border-bottom: solid 1px red;
+    transition: 1s;
+}
